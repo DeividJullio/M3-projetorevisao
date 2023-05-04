@@ -38,5 +38,6 @@ public class Customer {
     @Column(length = 40, nullable = false)
     private String city;
 
-    
+    @Column(length = 20, nullable = false)
+    private String state;
 }
