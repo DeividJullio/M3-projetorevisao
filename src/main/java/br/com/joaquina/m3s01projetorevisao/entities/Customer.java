@@ -29,11 +29,14 @@ public class Customer {
     @Column(length = 20)
     private String complement;
 
+    @Column(length = 6, nullable = false)
+    private String number;
 
+    @Column(length = 30, nullable = false)
+    private String neighborhood;
 
+    @Column(length = 40, nullable = false)
+    private String city;
 
-
-
-
-
+    
 }
