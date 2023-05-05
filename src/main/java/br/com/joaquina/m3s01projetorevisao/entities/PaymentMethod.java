@@ -1,14 +1,10 @@
 package br.com.joaquina.m3s01projetorevisao.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jdk.jfr.Enabled;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
-@Enabled
+@Entity
 public class PaymentMethod {
 
     @Id
